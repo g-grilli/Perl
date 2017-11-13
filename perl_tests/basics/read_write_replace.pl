@@ -17,7 +17,7 @@ sub main {
     if($line =~ /\begg\b/) {
         $line =~ s/\bhen\b/dinosaur/ig;
         print OUTPUT $line;
-        print "task complete\n"
+        print "task complete\n";
     }
   }
   

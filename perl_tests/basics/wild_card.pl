@@ -21,3 +21,4 @@ sub main {
 main();
 
 # . represents wild card so line 13 will return I have I had.
+# you can use more than one . for more characters
