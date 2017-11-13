@@ -11,6 +11,7 @@ sub main {
   # +? ne or more of the preceding, as few as possible
   # {5} five of the preceding
   # {3,6} at least 3 and at most 6
+  # {3,} at least 3
   
   # \d digit
   # \s space
