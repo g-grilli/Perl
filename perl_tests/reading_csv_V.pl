@@ -2,11 +2,10 @@
 use strict;
 use warnings;
 
-use Data::Dumper;
-
 $| = 1;
 
 sub main {
+   sub main {
     
     my $input = 'test.csv';
     
@@ -37,6 +36,6 @@ sub main {
     foreach my $line(@lines) {
         print $line . "\n";
     }
-}
+} 
 
 main();
